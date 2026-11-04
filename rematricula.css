@@ -1,0 +1,9 @@
+/* Componente exclusivo da home; cores, fontes e botão do site. */
+.bq-rematricula{background:var(--yellow);color:var(--blue-dark);border-bottom:1px solid rgba(22,24,88,.12)}
+.bq-rematricula-inner{display:flex;align-items:center;justify-content:space-between;gap:24px;padding-block:24px}
+.bq-rematricula-copy{color:inherit;text-decoration:none;min-width:0}
+.bq-rematricula h2{font-family:var(--font-display);font-size:clamp(24px,3vw,32px);line-height:1.2;margin:0 0 8px}
+.bq-rematricula p{margin:0;font-size:16px;line-height:1.6}
+.bq-rematricula .button{flex-shrink:0}
+.bq-rematricula a:focus-visible{outline:3px solid var(--blue-dark);outline-offset:5px}
+@media(max-width:600px){.bq-rematricula-inner{flex-direction:column;align-items:stretch;gap:18px;padding-block:22px}.bq-rematricula .button{width:100%;min-height:54px}}

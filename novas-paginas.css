@@ -1,0 +1,46 @@
+[hidden]{display:none!important}
+.achievements-hero h1{max-width:960px;font-size:clamp(32px,4.3vw,60px);line-height:1.12;letter-spacing:-.035em}
+.achievements-hero .eyebrow{display:flex;margin-top:24px}
+.page-conquistas .cta-band .button{flex-shrink:0;max-width:100%;text-align:center}
+.directory-filters{padding:26px;border:1px solid var(--border-soft);border-radius:var(--radius);background:#fff;margin:28px 0}
+.directory-filters fieldset{border:0;padding:0;margin:0 0 22px;min-width:0}
+.directory-filters legend,.filter-fields label{font-weight:800;font-size:14px}
+.filter-buttons{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
+.filter-buttons button,.clear-filters,.highlight-controls button{cursor:pointer;min-height:44px;padding:11px 16px;border:1px solid var(--border-soft);border-radius:12px;background:var(--surface-soft);color:var(--blue-dark);font-weight:800}
+.filter-buttons button[aria-pressed="true"]{background:var(--blue);color:#fff;border-color:var(--blue)}
+.filter-buttons button:hover,.clear-filters:hover{border-color:var(--blue)}
+.filter-fields{display:flex;gap:16px;align-items:flex-end;flex-wrap:wrap}
+.filter-fields label{display:grid;gap:10px}.search-field{flex:1;min-width:min(100%,240px)}
+.filter-fields input,.filter-fields select{width:100%;min-height:48px;border:1px solid #a8bacb;border-radius:10px;background:#fff;padding:12px;font:inherit;color:var(--blue-dark)}
+.filter-fields select{min-width:145px}.clear-filters{background:var(--yellow);border-color:var(--yellow)}
+.directory-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;align-items:start}
+.directory-empty{text-align:center;padding:clamp(32px,6vw,72px) 24px;border:1px solid var(--border-soft);border-radius:var(--radius);background:linear-gradient(140deg,#fff,var(--surface-soft))}
+.directory-empty h3{font-size:clamp(23px,3vw,32px);margin:18px 0 12px}.directory-empty p{max-width:550px;margin:0 auto 22px;line-height:1.8;color:#596175}
+.empty-symbol{display:grid;place-items:center;margin:auto;width:74px;height:74px;border-radius:24px;background:var(--yellow);color:var(--blue);font-size:40px}
+.achievement-card,.transport-card{overflow:hidden;border:1px solid var(--border-soft);border-radius:22px;background:#fff;overflow-wrap:anywhere}
+.achievement-photo{aspect-ratio:2/3;display:grid;place-items:center;background:var(--surface-soft);padding:8px}
+.achievement-photo img{display:block;width:100%;height:100%;min-height:0;object-fit:contain}
+.photo-fallback{color:var(--blue);font-weight:800}.achievement-body{padding:24px}
+.achievement-badge{display:inline-block;padding:8px 12px;background:var(--yellow);color:var(--blue-dark);border-radius:10px;font-size:12px;font-weight:800;line-height:1.5}
+.achievement-robotica .achievement-badge{background:var(--blue);color:#fff}.achievement-matematica .achievement-badge{background:#dcecf8;color:var(--blue-dark)}
+.achievement-emprego .achievement-badge{background:#d9f2e5;color:var(--blue-dark)}
+.achievement-meta{font-size:12px;color:#596175;line-height:1.6}.achievement-body h3{font-size:24px;margin:16px 0 10px;line-height:1.3}
+.achievement-body p{line-height:1.65}.achievement-institution{font-weight:800;color:var(--blue)}
+.achievement-body blockquote{margin:20px 0 0;padding-left:16px;border-left:3px solid var(--yellow);font-size:14px;line-height:1.7;color:#596175}
+.achievement-testimonial{margin-top:20px}
+.achievement-testimonial summary{cursor:pointer;padding:12px 0;min-height:44px;color:var(--blue);font-weight:800;line-height:1.5}
+.achievement-testimonial summary:focus-visible{outline:3px solid var(--blue);outline-offset:4px;border-radius:4px}
+.achievement-testimonial[open] summary{margin-bottom:12px}
+.achievement-testimonial blockquote{margin-top:0}
+.achievement-testimonial blockquote p{white-space:pre-line}
+.achievement-testimonial blockquote p:first-child{margin-top:0}
+.achievement-testimonial blockquote p:last-child{margin-bottom:0}
+.highlight-controls{display:flex;justify-content:flex-end;gap:10px;margin-bottom:16px}
+.highlight-track{display:flex;gap:24px;overflow-x:auto;scroll-snap-type:x mandatory;padding:8px 4px 24px;overscroll-behavior-x:contain;touch-action:pan-x pan-y}
+.highlight-track .achievement-card{flex:0 0 min(380px,85%);scroll-snap-align:start}
+.transport-guidance{border-left:5px solid var(--yellow);padding:4px 24px;margin-bottom:32px}.transport-guidance h2{margin-top:0}.transport-guidance p{line-height:1.7}.transport-guidance a{display:inline-flex;margin:0 20px 12px 0}
+.transport-card{padding:24px;border-top:4px solid var(--blue)}.transport-card h3{font-size:21px;line-height:1.4;margin:0 0 16px}
+.transport-region{line-height:1.8;color:#596175}.transport-phone{display:inline-flex;padding-block:12px;min-height:44px;color:var(--blue);font-weight:800;letter-spacing:.02em}.transport-phone:hover{text-decoration:underline}
+@media(max-width:900px){.directory-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.directory-grid{grid-template-columns:1fr}.directory-filters{padding:18px}.filter-fields{align-items:stretch;flex-direction:column}.filter-buttons button{text-align:left}.filter-fields label{width:100%}.directory-empty{padding-inline:18px}.achievement-body,.transport-card{padding:22px}.transport-guidance{padding-left:18px}.achievements-hero{padding-block:46px}}
+@media(prefers-reduced-motion:reduce){.highlight-track{scroll-behavior:auto;scroll-snap-type:none}}

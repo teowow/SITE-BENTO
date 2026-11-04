@@ -1,0 +1,206 @@
+{
+  "hosting": {
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/referencias*/**",
+      "**/recuperacao*/**",
+      "**/entrega-bq/**",
+      "**/tests/**",
+      "**/testes/**",
+      "**/*.zip",
+      "**/*.xlsx",
+      "**/*.py",
+      "**/AGENTS.md",
+      "**/SKILL.md",
+      "**/README*.md",
+      "**/node_modules/**",
+      "**/tools/**",
+      "**/evidencias/**",
+      "**/baseline/**",
+      "**/*.md",
+      "**/*.docx",
+      "**/*.log",
+      "**/*.map",
+      "**/package*.json",
+      "**/*-lock.*",
+      "**/*.bak",
+      "**/*~"
+    ],
+    "redirects": [
+      {
+        "destination": "/",
+        "type": 301,
+        "regex": "^/novo$"
+      },
+      {
+        "destination": "/concurso2027.html",
+        "type": 301,
+        "regex": "^/vestibulinho$"
+      },
+      {
+        "destination": "/concurso2027.html",
+        "type": 301,
+        "regex": "^/novo/vestibulinho$"
+      },
+      {
+        "destination": "/concurso2027.html",
+        "type": 301,
+        "regex": "^/concurso2027\\-meta\\.html$"
+      },
+      {
+        "destination": "/agendar-visita.html",
+        "type": 301,
+        "regex": "^/novo/agendar\\-visita\\.html$"
+      },
+      {
+        "destination": "/biblioteca.html",
+        "type": 301,
+        "regex": "^/novo/biblioteca\\.html$"
+      },
+      {
+        "destination": "/concurso2027.html",
+        "type": 301,
+        "regex": "^/novo/concurso2027\\.html$"
+      },
+      {
+        "destination": "/conquistas.html",
+        "type": 301,
+        "regex": "^/novo/conquistas\\.html$"
+      },
+      {
+        "destination": "/contato.html",
+        "type": 301,
+        "regex": "^/novo/contato\\.html$"
+      },
+      {
+        "destination": "/curso.html",
+        "type": 301,
+        "regex": "^/novo/curso\\.html$"
+      },
+      {
+        "destination": "/cursos.html",
+        "type": 301,
+        "regex": "^/novo/cursos\\.html$"
+      },
+      {
+        "destination": "/documentos-matricula.html",
+        "type": 301,
+        "regex": "^/novo/documentos\\-matricula\\.html$"
+      },
+      {
+        "destination": "/faq.html",
+        "type": 301,
+        "regex": "^/novo/faq\\.html$"
+      },
+      {
+        "destination": "/fundamental.html",
+        "type": 301,
+        "regex": "^/novo/fundamental\\.html$"
+      },
+      {
+        "destination": "/",
+        "type": 301,
+        "regex": "^/novo/index\\.html$"
+      },
+      {
+        "destination": "/matriculas.html",
+        "type": 301,
+        "regex": "^/novo/matriculas\\.html$"
+      },
+      {
+        "destination": "/medio-tecnico.html",
+        "type": 301,
+        "regex": "^/novo/medio\\-tecnico\\.html$"
+      },
+      {
+        "destination": "/noticias.html",
+        "type": 301,
+        "regex": "^/novo/noticias\\.html$"
+      },
+      {
+        "destination": "/obrigado-concurso-bolsas.html",
+        "type": 301,
+        "regex": "^/novo/obrigado\\-concurso\\-bolsas\\.html$"
+      },
+      {
+        "destination": "/obrigado-inscricao.html",
+        "type": 301,
+        "regex": "^/novo/obrigado\\-inscricao\\.html$"
+      },
+      {
+        "destination": "/parceiros.html",
+        "type": 301,
+        "regex": "^/novo/parceiros\\.html$"
+      },
+      {
+        "destination": "/servicos.html",
+        "type": 301,
+        "regex": "^/novo/servicos\\.html$"
+      },
+      {
+        "destination": "/sobre.html",
+        "type": 301,
+        "regex": "^/novo/sobre\\.html$"
+      },
+      {
+        "destination": "/tecnico-noturno.html",
+        "type": 301,
+        "regex": "^/novo/tecnico\\-noturno\\.html$"
+      },
+      {
+        "destination": "/tour-virtual.html",
+        "type": 301,
+        "regex": "^/novo/tour\\-virtual\\.html$"
+      },
+      {
+        "destination": "/transparencia-salarial.html",
+        "type": 301,
+        "regex": "^/novo/transparencia\\-salarial\\.html$"
+      },
+      {
+        "destination": "/transportes.html",
+        "type": 301,
+        "regex": "^/novo/transportes\\.html$"
+      },
+      {
+        "destination": "/",
+        "type": 301,
+        "regex": "^/novo/$"
+      },
+      {
+        "destination": "/",
+        "type": 301,
+        "regex": "^/index\\.html$"
+      },
+      {
+        "destination": "/concurso2027.html",
+        "type": 301,
+        "regex": "^/vestibulinho/$"
+      },
+      {
+        "destination": "/concurso2027.html",
+        "type": 301,
+        "regex": "^/novo/vestibulinho/$"
+      }
+    ]
+  },
+  "emulators": {
+    "hub": {
+      "host": "127.0.0.1",
+      "port": 4415
+    },
+    "ui": {
+      "enabled": false
+    },
+    "logging": {
+      "host": "127.0.0.1",
+      "port": 4515
+    },
+    "hosting": {
+      "host": "127.0.0.1",
+      "port": 5015
+    }
+  }
+}

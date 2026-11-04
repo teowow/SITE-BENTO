@@ -1,0 +1,44 @@
+/* Seletores próprios: a folha também é usada pelos acessos nas modalidades. */
+.transport-page .inner-hero h1{font-family:var(--font-display)}
+.transport-directory{background:var(--cream)}
+.transport-directory .section-title{font-family:var(--font-display)}
+.transport-guidance{max-width:760px;margin:0 0 32px;color:var(--ink);font-size:17px;line-height:1.75}
+.transport-filters{margin-bottom:28px;padding:28px;border:1px solid var(--border-soft);border-radius:22px;background:#fff}
+.transport-filters[hidden],.transport-card[hidden],.transport-empty[hidden]{display:none}
+.transport-search-label{display:block;margin-bottom:10px;font-weight:800;color:var(--blue-dark)}
+.transport-search{display:block;width:100%;min-width:0;min-height:54px;padding:14px 16px;border:1px solid #a8bac9;border-radius:12px;background:#fff;color:var(--ink);font:inherit}
+.transport-search::placeholder{color:#5b6675}
+.transport-filter-row{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:18px}
+.transport-period{min-height:48px;padding:12px 22px;border:2px solid var(--blue);border-radius:12px;background:#fff;color:var(--blue);font:800 14px var(--font-body);cursor:pointer}
+.transport-period:hover{background:var(--surface-soft)}
+.transport-period[aria-pressed="true"]{background:var(--blue);color:#fff;box-shadow:0 0 0 3px #174d8420}
+.transport-clear{min-height:48px;padding:10px 12px;border:0;background:transparent;color:var(--blue);font:800 14px var(--font-body);text-decoration:underline;text-underline-offset:4px;cursor:pointer}
+.transport-clear:disabled{color:#5b6675;cursor:default;text-decoration:none}
+.transport-filter-help{margin:18px 0 0;color:#5b6675;font-size:14px;line-height:1.7}
+.transport-status{margin:0 0 22px;color:#5b6675;font-size:15px}
+.transport-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;align-items:stretch}
+/* A lista longa precisa estar visível mesmo sem atingir o limiar da animação global. */
+.transport-page .transport-grid.page-reveal{opacity:1;transform:none}
+.transport-card{min-width:0;padding:28px;border:1px solid var(--border-soft);border-radius:20px;background:#fff}
+.transport-card h3{margin:0 0 16px;color:var(--blue-dark);font-size:23px;line-height:1.25;letter-spacing:-.025em;overflow-wrap:anywhere}
+.transport-phone{display:inline-block;padding:4px 0;color:var(--blue);font-weight:800;font-size:17px;text-decoration:underline;text-underline-offset:4px;white-space:nowrap}
+.transport-region{margin:18px 0 0;color:#46596d;font-size:15px;line-height:1.8;overflow-wrap:anywhere}
+.transport-restriction{margin:16px 0 0;color:var(--ink);font-size:15px;line-height:1.7}
+.transport-empty{padding:30px;border:1px solid var(--border-soft);border-radius:18px;background:#fff;color:var(--blue-dark)}
+.transport-empty h3{margin:0 0 12px;font-size:24px}
+.transport-empty p{margin:0;line-height:1.7;color:#46596d}
+.bq-transport-access{background:#fff}
+.bq-transport-access .bq-transport-access-inner{display:flex;align-items:center;justify-content:space-between;gap:36px;padding:40px;border:1px solid var(--border-soft);border-radius:24px;background:var(--surface-soft)}
+.bq-transport-access .bq-transport-access-copy{min-width:0;max-width:740px}
+.bq-transport-access h2{margin:0 0 16px;color:var(--blue-dark);font:800 clamp(28px,3vw,40px)/1.12 var(--font-display);letter-spacing:-.035em}
+.bq-transport-access p{margin:0;color:#46596d;font-size:16px;line-height:1.75}
+.bq-transport-access [data-bq-transport-link]{flex-shrink:0;text-align:center}
+/* Submenus fechados do cabeçalho não devem ampliar a largura dessas páginas. */
+@media(min-width:901px){
+  :is(.transport-page,.page-medio-tecnico,.page-tecnico-noturno,.page-fundamental) .nav-course-list{display:none}
+  :is(.transport-page,.page-medio-tecnico,.page-tecnico-noturno,.page-fundamental) .nav-course-group:hover>.nav-course-list,
+  :is(.transport-page,.page-medio-tecnico,.page-tecnico-noturno,.page-fundamental) .nav-course-group:focus-within>.nav-course-list,
+  :is(.transport-page,.page-medio-tecnico,.page-tecnico-noturno,.page-fundamental) .nav-course-group.submenu-open>.nav-course-list{display:grid}
+}
+@media(max-width:1100px){.transport-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.bq-transport-access .bq-transport-access-inner{align-items:flex-start;flex-direction:column}}
+@media(max-width:600px){.transport-grid{grid-template-columns:minmax(0,1fr);gap:16px}.transport-filters,.transport-card{padding:22px}.transport-filters{border-radius:18px}.transport-filter-row{gap:10px}.transport-period{flex:1;padding-inline:12px}.transport-clear{flex-basis:100%;text-align:left}.bq-transport-access .bq-transport-access-inner{padding:26px;gap:24px}.bq-transport-access [data-bq-transport-link]{width:100%}.transport-directory{padding-block:60px}}

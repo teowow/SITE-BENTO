@@ -1,0 +1,145 @@
+[
+  {
+    "id": "depoimento-01",
+    "nome": "Maria Antonia Teixeira",
+    "curso": "Técnico em Enfermagem",
+    "anoFormacao": 1999,
+    "cargo": "Resgatista do SAMU",
+    "resumo": "Ex-aluna do Técnico em Enfermagem, hoje funcionária pública e resgatista do SAMU.",
+    "depoimento": "Fiz o Técnico em Enfermagem no Bento Quirino em 1999. Fui muito bem orientada e o curso foi excelente. Hoje sou funcionária pública e exerço o cargo de resgatista do SAMU. Essa conquista é fruto da minha passagem pelo Colégio Bento Quirino e do mérito dos excelentes professores que tive.",
+    "imagem": "maria-antonia-teixeira.webp",
+    "alt": "Foto de Maria Antonia Teixeira"
+  },
+  {
+    "id": "depoimento-02",
+    "nome": "Mariele",
+    "curso": "Técnico em Farmácia",
+    "anoIngresso": 1999,
+    "cargo": "Profissional da área farmacêutica",
+    "resumo": "Após o curso técnico, cursou a faculdade de Farmácia e atuou em diferentes segmentos da área.",
+    "depoimento": "Entrei no Bento Quirino em 1999 e comecei cursando Turismo. Em menos de um mês, mudei para o curso de Farmácia, no qual pude aprender e colocar em prática, por meio do estágio, toda a teoria vista em sala de aula e no laboratório. Após o término do curso, comecei a trabalhar em uma farmácia de manipulação, onde permaneci por alguns anos, e ingressei na faculdade de Farmácia. Depois de formada, trabalhei em farmácia de UBS, drogaria e transporte de medicamentos.",
+    "imagem": "mariele.webp",
+    "alt": "Foto de Mariele"
+  },
+  {
+    "id": "depoimento-03",
+    "nome": "Pietra Campopiano",
+    "curso": "Técnico em Publicidade",
+    "anoFormacao": 2022,
+    "cargo": "Gerente de Projetos no HUB Criah",
+    "resumo": "Lidera projetos de comunicação voltados ao varejo automotivo.",
+    "depoimento": "Formada em 2022 como Técnica em Publicidade pelo Bento Quirino, Pietra Campopiano atua como Gerente de Projetos no HUB Criah, liderando projetos de comunicação para o varejo automotivo.",
+    "imagem": "pietra-campopiano.webp",
+    "alt": "Foto de Pietra Campopiano"
+  },
+  {
+    "id": "depoimento-04",
+    "nome": "Rebeca",
+    "curso": "Técnico em Análises Clínicas + Ensino Médio",
+    "periodo": "2006–2008",
+    "cargo": "Enfermeira assistencial no Hospital e Maternidade Celso Pierro",
+    "resumo": "Graduada em Enfermagem em 2012, atua na enfermaria clínica/cirúrgica SUS do Hospital e Maternidade Celso Pierro.",
+    "depoimento": "Estudei no Colégio Técnico Bento Quirino de 2006 a 2008, quando cursei o Técnico em Análises Clínicas junto com o Ensino Médio. Foi um colégio especial, que fez toda a diferença na minha vida e na escolha da área que seguiria na faculdade. Sou graduada em Enfermagem pela Faculdade Anhanguera de Campinas desde 2012. Atualmente, trabalho como enfermeira assistencial, responsável pela enfermaria clínica/cirúrgica SUS do Hospital e Maternidade Celso Pierro (PUC-Campinas). Guardo ótimas lembranças dos colegas e professores e sou grata por todo o ensinamento que recebi.",
+    "imagem": "rebeca.webp",
+    "alt": "Foto de Rebeca"
+  },
+  {
+    "id": "depoimento-05",
+    "nome": "Marcos Rafael Toillier",
+    "curso": "Técnico em Farmácia",
+    "periodo": "2001–2003",
+    "cargo": "Farmacêutico e proprietário de farmácia de manipulação",
+    "resumo": "Empreendedor em Tupã, com experiência em empresas como Pfizer, Zoetis, Ceva, Prati-Donaduzzi e Sanofi.",
+    "depoimento": "Fui aluno do Bento Quirino de 2001 a 2003, no curso Técnico em Farmácia, na unidade da Rua José de Alencar. Vim de uma família humilde, morava na periferia de Campinas e fui o primeiro da família a estudar em uma escola particular. Foram necessários muitos sacrifícios familiares para que isso acontecesse.\n\nQuando cheguei da escola pública, sentia que estava abaixo dos demais alunos. Os professores foram extremamente atenciosos para que eu pudesse acompanhar meus colegas, e guardo isso com muito carinho. Também fiz amizades que permanecem até hoje.\n\nOs três anos no Bentinho mudaram minha vida para sempre. Hoje sou farmacêutico e proprietário de uma farmácia de manipulação na cidade de Tupã, com nove anos de atividade. Também já atuei em grandes empresas farmacêuticas, como Pfizer, Zoetis, Ceva, Prati-Donaduzzi e Sanofi.\n\nO Bentinho foi o pontapé inicial do sucesso da minha carreira profissional e, com certeza, da minha vida pessoal também. Aos novos alunos, desejo toda a sorte: tenham a certeza de que fizeram uma ótima escolha ao optar por essa família. Que saudades!",
+    "imagem": "marcos-rafael-toillier.webp",
+    "alt": "Foto de Marcos Rafael Toillier"
+  },
+  {
+    "id": "depoimento-06",
+    "nome": "Davi Lazzari",
+    "curso": "Ensino Médio Técnico em Publicidade e Propaganda",
+    "periodo": "2021–2023",
+    "anoFormacao": 2023,
+    "cargo": "Profissional de Marketing Esportivo",
+    "resumo": "Transformou a paixão por futebol em carreira na área de marketing esportivo.",
+    "depoimento": "Hoje trabalho com Marketing Esportivo, mas, antes de tudo isso, fui aluno do Bentinho, onde fiz o Ensino Médio Técnico em Publicidade e Propaganda. Entrei em 2021 e me formei em 2023, em uma jornada marcada por ensinamentos, propósito e muito aprendizado. O Ensino Médio Técnico fez a diferença na minha formação e me mostrou, desde cedo, a importância de estar preparado para o mercado de trabalho.\n\nSempre fui apaixonado por futebol. Em praticamente todos os trabalhos que os professores passavam, lá estava ele: o futebol! Era o tema que eu gostava de estudar, apresentar e explorar. Talvez, naquela época, eu ainda não imaginasse que tudo aquilo se tornaria minha profissão.\n\nHoje, olho para trás com orgulho e gratidão por ter realizado um sonho que nasceu ainda no Ensino Médio: trabalhar e viver do futebol! Meu agradecimento a toda a equipe do Bentinho, aos professores e a todos que fizeram parte dessa trajetória. Cada ensinamento teve sua importância para que eu chegasse até aqui.\n\nO sonho começou na escola, mas a história continua sendo escrita dentro do futebol!",
+    "imagem": "davi-lazzari.webp",
+    "alt": "Foto de Davi Lazzari"
+  },
+  {
+    "id": "depoimento-07",
+    "nome": "Lilian Fagan",
+    "curso": "Técnico em Farmácia",
+    "periodo": "2002–2004",
+    "anoFormacao": 2004,
+    "cargo": "Gerente de Qualidade e Meio Ambiente",
+    "resumo": "Atua em logística de produtos farmacêuticos refrigerados, com gestão da qualidade e responsabilidade técnica.",
+    "depoimento": "Fui aluna do Colégio Politécnico Bento Quirino, onde cursei o Técnico em Farmácia de 2002 a 2004. No último ano, fui monitora do laboratório de Farmácia, auxiliando os professores nas aulas práticas do período noturno.\n\nTodo esse processo foi de extrema importância para o meu desenvolvimento profissional, pois me mostrou, desde cedo, as responsabilidades necessárias para alcançar o sucesso na carreira.\n\nContinuei estudando e hoje atuo no segmento de logística, em uma transportadora de produtos farmacêuticos refrigerados, com entregas em todo o território nacional. Desenvolvo atividades de gestão da qualidade e responsabilidade técnica como Gerente de Qualidade e Meio Ambiente.",
+    "imagem": "lilian-fagan.webp",
+    "alt": "Foto de Lilian Fagan"
+  },
+  {
+    "id": "depoimento-08",
+    "nome": "Adriana Landim",
+    "curso": "Técnico em Nutrição e Dietética",
+    "anoFormacao": 2021,
+    "cargo": "Profissional de assessoria e consultoria em Nutrição e Dietética",
+    "resumo": "Concluiu o curso em 2021, durante a pandemia, e passou a atuar com assessoria e consultoria.",
+    "depoimento": "Me formei no curso Técnico em Nutrição e Dietética em 2021, durante a pandemia, e desde então venho atuando na área de assessoria e consultoria. O curso me deu a possibilidade de ser reconhecida por uma profissão e uma base para iniciar minha trajetória. Sou muito feliz por ter me encontrado como profissional nessa área.",
+    "imagem": "adriana-landim.webp",
+    "alt": "Foto de Adriana Landim"
+  },
+  {
+    "id": "depoimento-09",
+    "nome": "Francine Magalhães",
+    "curso": "Técnico em Informática",
+    "anoIngresso": 2001,
+    "cargo": "Professora",
+    "resumo": "Descobriu a vocação para o ensino enquanto era monitora dos laboratórios de informática; relata 21 anos de atuação na educação.",
+    "depoimento": "Minha história com a educação começou em 2001, quando estudei no Colégio Técnico Bento Quirino e fiz o Técnico em Informática. Mesmo não seguindo na área da tecnologia, foi lá que descobri meu verdadeiro dom: ensinar.\n\nFoi atuando como monitora dos laboratórios de informática, ajudando meus colegas, explicando com paciência e vendo o brilho no olhar de quem aprendia, que tive a certeza de que queria ser professora.\n\nJá são 21 anos desde essa escolha. Há 21 anos atuo nessa área que tanto me encanta, me move e me transforma todos os dias. Ser professora não é só o que eu faço, é quem eu sou.",
+    "imagem": "francine-magalhaes.webp",
+    "alt": "Foto de Francine Magalhães"
+  },
+  {
+    "id": "depoimento-10",
+    "cargo": "Assessora parlamentar na Câmara Municipal de Campinas",
+    "resumo": "Após oito anos como técnica concursada em Farmácia, custeou a faculdade e seguiu carreira até a assessoria parlamentar.",
+    "depoimento": "Estudar no Colégio Bento Quirino foi uma etapa muito importante da minha trajetória e teve grande influência na minha formação profissional e pessoal.\n\nFoi por meio do curso técnico que realizei na instituição que tive a oportunidade de prestar um concurso público e conquistar uma vaga como técnica concursada em Farmácia, função que exerci durante oito anos. Com o salário desse trabalho, consegui custear minha faculdade e investir na minha formação, abrindo portas para novas oportunidades.\n\nHoje, atuo como assessora parlamentar na Câmara Municipal de Campinas e reconheço o quanto essa trajetória foi importante para chegar até aqui. O Colégio Bento Quirino teve um papel fundamental na minha formação, mostrando na prática como o ensino técnico pode abrir portas e transformar realidades. Foi ali que dei passos importantes para conquistar minha independência profissional e construir novas oportunidades para o futuro.",
+    "imagem": "depoimento-10.webp",
+    "alt": "Foto de ex-aluna do Bento Quirino"
+  },
+  {
+    "id": "depoimento-11",
+    "nome": "Beatriz Di Grazia",
+    "curso": "Técnico em Publicidade",
+    "periodo": "2022–2024",
+    "anoFormacao": 2024,
+    "cargo": "Community Manager na Agência Desafio",
+    "resumo": "Trabalha com conteúdo, relacionamento e estratégia para marcas em uma agência de publicidade.",
+    "depoimento": "Estudei no Colégio Técnico Bento Quirino entre 2022 e 2024, no curso Técnico em Publicidade. Escolhi o colégio por ser uma referência e uma das poucas instituições da região a oferecer um curso nessa área, que sempre me encantou.\n\nDurante minha formação, as aulas práticas, os projetos, as palestras e o contato com professores que também atuam no mercado me ajudaram a conhecer melhor a profissão e entender a dinâmica da comunicação. O curso buscava acompanhar as mudanças do mercado e nos preparar para os desafios da profissão.\n\nEssa experiência foi muito importante para minha formação e contribuiu para que hoje eu trabalhe em uma das maiores agências de publicidade do interior de São Paulo. Na Agência Desafio, atuo como Community Manager, trabalhando com conteúdo, relacionamento e estratégia para marcas.\n\nMuito do que aplico hoje começou com a base que construí no Bentinho. Sou muito grata por tudo que aprendi e pelas oportunidades que essa formação me proporcionou.",
+    "imagem": "beatriz-di-grazia.webp",
+    "alt": "Foto de Beatriz Di Grazia"
+  },
+  {
+    "id": "depoimento-12",
+    "nome": "Matheus Silva",
+    "curso": "Técnico em Informática",
+    "periodo": "2022–2024",
+    "cargo": "Engenheiro de Software na Zions Vision",
+    "resumo": "Engenheiro de Software, certificado AWS e embaixador da AWS em sua universidade.",
+    "depoimento": "Estudei no Bentinho entre 2022 e 2024, onde cursei Informática. Comecei a estudar informática por uma paixão que sempre tive pela tecnologia. Ao longo dessa jornada, descobri meu interesse pelo desenvolvimento de software e percebi que essa área se conectava perfeitamente com aquilo de que mais gosto: solucionar problemas reais das pessoas por meio da tecnologia.\n\nHoje, atuo como Engenheiro de Software na Zions Vision, sou certificado AWS e embaixador da AWS na minha universidade.\n\nO Bentinho teve um papel fundamental na minha trajetória. Foi lá que desenvolvi conhecimentos, descobri minha paixão pelo desenvolvimento de software e construí as bases do profissional que sou hoje. O Bentinho não fez apenas parte da minha formação: também marcou minha vida e ajudou a moldar quem sou como profissional.",
+    "imagem": "matheus-silva.webp",
+    "alt": "Foto de Matheus Silva"
+  },
+  {
+    "id": "depoimento-13",
+    "nome": "Higor Correa Gimenes",
+    "anoFormacao": 1997,
+    "cargo": "Fundador da Texan Group",
+    "titulo": "Do Bentinho para o mundo",
+    "resumo": "Passou pela IBM, participou do desenvolvimento do Watson, fez mestrado, foi professor e fundou a Texan Group.",
+    "depoimento": "Minha história passa pelo Bentinho. Sou ex-aluno, formado no BQ em 1997, e foi aqui que tive contato com uma formação que me abriu portas para o mundo da tecnologia.\n\nMinha trajetória me levou à IBM, onde participei do desenvolvimento do Watson. Fiz mestrado, fui professor e, finalmente, criei minha própria empresa de tecnologia, a Texan Group.\n\nHoje, à frente da empresa, tenho uma satisfação muito especial: poder contar com alunos e ex-alunos do Bentinho na nossa equipe, seja trabalhando conosco, seja começando sua trajetória profissional por meio de estágios. Ver jovens que passaram pelo mesmo lugar onde comecei encontrando oportunidades na área de tecnologia é motivo de muito orgulho.\n\nPara mim, essa é uma das melhores formas de retribuir tudo o que o Bentinho representou na minha história: ajudando a abrir caminhos para quem está começando a construir a sua.",
+    "imagem": "higor-correa-gimenes.webp",
+    "alt": "Foto de Higor Correa Gimenes"
+  }
+]
